@@ -1,0 +1,82 @@
+.info-banner-testimonials {
+	display: flex;
+	gap: 40px;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+
+.info-banner-testimonials-title {
+	display: flex;
+	flex-direction: column;
+	/* align-items: flex-end; */
+	padding-bottom: 20px;
+	border-bottom: 1px solid #e5e5e680;
+}
+
+.info-banner-testimonials-title > h4 {
+	color: #f2f2f2;
+	text-align: right;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 120%;
+}
+
+.info-banner-testimonials-logo {
+	width: 60px;
+	height: 60px;
+}
+
+.info-banner-testimonials-section {
+	display: flex;
+	gap: 20px;
+	justify-content: space-between;
+}
+
+.info-banner-testimonials-section-card {
+	display: flex;
+	min-width: 353px;
+	max-width: 353px;
+	padding: 20px;
+	flex-direction: column;
+	gap: 20px;
+	border-radius: 12px;
+	background: #fff;
+	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.04), 0px 4px 10px 0px rgba(0, 0, 0, 0.04);
+	flex-grow: 1;
+	box-sizing: border-box;
+}
+
+.info-banner-testimonials-section-card-head {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+	flex-grow: 1;
+	flex-wrap: wrap;
+}
+
+.info-banner-testimonials-section-card-head > h6 {
+	color: #19191a;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 120%;
+	width: max-content;
+}
+
+.info-banner-testimonials-section-card-head > p {
+	color: #96979a;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 120%;
+}
+
+.info-banner-testimonials-section-card > h2 {
+	color: #1d2129;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 120%;
+	width: 100%;
+}

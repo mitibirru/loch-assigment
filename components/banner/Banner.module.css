@@ -1,0 +1,230 @@
+.info-banner {
+	display: flex;
+	flex-direction: column;
+	background: radial-gradient(102.19% 109.74% at 2.27% 91.27%, rgba(31, 169, 17, 0.81) 12.21%, #2f15d0 54.58%, rgba(0, 0, 0, 0) 100%);
+	height: 100%;
+	width: calc(100% - 605px);
+	gap: 40px;
+	padding-left: 72px;
+	padding-top: 72px;
+	padding-bottom: 60px;
+}
+
+.info-banner-hero {
+	display: flex;
+	flex-direction: column;
+	gap: 61px;
+	width: 100%;
+}
+
+.section-1 {
+	gap: 11px;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.section-1-highlights {
+	display: flex;
+	gap: 16px;
+	flex-direction: column;
+	height: 304px;
+	justify-content: center;
+}
+
+.section-1-highlights > h4 {
+	color: #f2f2f2;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	font-size: 31px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 120%;
+	width: 313px;
+}
+
+.section-1-highlights > p {
+	width: 322px;
+	color: rgba(242, 242, 242);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 120%;
+	opacity: 0.7;
+}
+
+.section-1-features {
+	padding: 48px 0 84px 46px;
+	display: flex;
+	gap: 14px;
+}
+
+.section-1-feature-one {
+	width: 190px;
+	height: 172px;
+	border-radius: 8.4px;
+	padding: 14px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	justify-content: center;
+	background: #fff;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 27.5%, rgba(22, 93, 255, 0.16) 157.71%), #fff;
+	box-shadow: 0px 0.7px 0.7px 0px rgba(0, 0, 0, 0.04), 0px 2.8px 7px 0px rgba(0, 0, 0, 0.04);
+}
+
+.section-1-feature-one > div {
+	display: flex;
+	justify-content: space-between;
+}
+
+.notification-icon {
+	animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.section-1-feature-one > div > span {
+	color: #19191a;
+	text-align: right;
+	font-size: 9.1px;
+	cursor: pointer;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 120%;
+}
+
+.section-1-feature-one > p {
+	color: #19191a;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 120%;
+}
+
+.section-1-feature-one > input {
+	display: flex;
+	width: 161.7px;
+	height: 35px;
+	padding: 8.4px 11.2px;
+	align-items: center;
+	gap: 7px;
+	flex-shrink: 0;
+	border-radius: 5.6px;
+	border: 0.7px solid #d4d4d4;
+	background: #fff;
+	color: #19191a;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 120%;
+}
+
+.section-1-feature-one > input:focus {
+	outline: none;
+}
+
+.section-1-feature-one > input::placeholder {
+	color: #19191a;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 120%;
+}
+
+.section-1-feature-two {
+	width: 190px;
+	height: 172px;
+	padding: 14px;
+	border-radius: 8.4px;
+	background: #fff;
+	box-shadow: 0px 0.7px 0.7px 0px rgba(0, 0, 0, 0.04), 0px 2.8px 7px 0px rgba(0, 0, 0, 0.04);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	z-index: -1;
+}
+
+.section-1-feature-two > div {
+	display: flex;
+	gap: 15px;
+	flex-direction: column;
+}
+
+.section-1-feature-two > div > p {
+	color: #19191a;
+	font-size: 11.2px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 120%;
+}
+
+.section-2-wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 22px;
+	flex-grow: 1;
+	width: 100%;
+	padding-right: 80px;
+}
+
+.section-2 {
+	display: flex;
+	justify-content: space-between;
+	gap: 72px;
+}
+
+.section-2-dropdown {
+	display: inline-flex;
+	padding: 4px;
+	align-items: center;
+	gap: 3px;
+	border-radius: 2.8px;
+	background: rgba(229, 229, 230, 0.5);
+	width: fit-content;
+}
+
+.section-2-dropdown > p {
+	color: #313233;
+	font-family: Inter;
+	font-size: 9.1px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 120%;
+}
+
+.section-2-cohorts-info {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	align-items: flex-end;
+	padding-top: 14px;
+}
+
+.section-2-cohorts-info > h4 {
+	color: #f2f2f2;
+	text-align: right;
+	font-family: Inter;
+	font-size: 31px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 120%;
+	width: 305px;
+}
+
+.section-2-cohorts-info > p {
+	color: #f2f2f2;
+	text-align: right;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 120%;
+	opacity: 0.7;
+	width: 307px;
+}
