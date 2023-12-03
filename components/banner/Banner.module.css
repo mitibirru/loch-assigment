@@ -228,3 +228,20 @@
 	opacity: 0.7;
 	width: 307px;
 }
+
+.info-banner-testimonials-title {
+	display: flex;
+	flex-direction: column;
+	/* align-items: flex-end; */
+	padding-bottom: 20px;
+	border-bottom: 1px solid #e5e5e680;
+}
+
+.info-banner-testimonials-title > h4 {
+	color: #f2f2f2;
+	text-align: right;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 120%;
+}
